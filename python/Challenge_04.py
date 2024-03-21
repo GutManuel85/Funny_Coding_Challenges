@@ -22,13 +22,11 @@ def countAllLettersInText(text):
         if(amount > maxAmountValue):
             maxAmountValue = amount
             maxAmountLetter = letter
-
-
+            
     print(result)
     print("Am häufigsten kommt der Buchstabe '{}' vor - nämlich {} mal"
           .format(maxAmountLetter, maxAmountValue))
-
-
+    
     return result
 
 myResult = countAllLettersInText("Hallo, das ist ein Text")
