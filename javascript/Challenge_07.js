@@ -7,12 +7,12 @@ const valid_id = getOnlyValidIds(ids);
 console.log(valid_id);
 
 function getOnlyValidIds(array){
-    valids = [];
+    let validIDs = [];
     array.forEach(id => {
         if(checkId(id)){
-            valids.push(id);
+            validIDs.push(id);
         }});
-    return valids;
+    return validIDs;
 }
 
 function checkId(id){
